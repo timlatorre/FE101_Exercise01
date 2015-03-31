@@ -1,0 +1,39 @@
+@import 'variables';
+
+// Body & Header
+body {background-color: $default-yellow;color: $default-red;margin:0;}
+h1 {color: $default-blue;margin:10px;}
+
+// Nav bar
+nav {margin:20px 0;
+ul {margin: 0;}
+li {display: inline-block;
+    a {padding: 5px 10px;border:$default-red 1px solid;text-decoration:none;color:$default-red;}
+}}
+
+// Main body
+#main_event{
+    background-color:$default-blue;
+    width:$percent-100;
+    padding: 20px;
+    p{padding:50px;text-align:center;color:$default-white}
+}
+
+#this_n_that {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.this {
+	padding: 5px 0;
+	margin: 10px 0;
+	background-color: $default-red;
+	width: 100px;
+	color: $default-blue;
+	text-align: center;
+}
+
+.that {
+	@extend .this;
+	background-color: orange;
+}

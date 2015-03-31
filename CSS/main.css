@@ -1,0 +1,46 @@
+body {
+  background-color: yellow;
+  color: red;
+  margin: 0; }
+
+h1 {
+  color: blue;
+  margin: 10px; }
+
+nav {
+  margin: 20px 0; }
+  nav ul {
+    margin: 0; }
+  nav li {
+    display: inline-block; }
+    nav li a {
+      padding: 5px 10px;
+      border: red 1px solid;
+      text-decoration: none;
+      color: red; }
+
+#main_event {
+  background-color: blue;
+  width: 100%;
+  padding: 20px; }
+  #main_event p {
+    padding: 50px;
+    text-align: center;
+    color: white; }
+
+#this_n_that {
+  width: 100px;
+  margin: 0 auto; }
+
+.this, .that {
+  padding: 5px 0;
+  margin: 10px 0;
+  background-color: red;
+  width: 100px;
+  color: blue;
+  text-align: center; }
+
+.that {
+  background-color: orange; }
+
+/*# sourceMappingURL=main.css.map */
